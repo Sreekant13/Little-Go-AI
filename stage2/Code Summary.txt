@@ -1,0 +1,14 @@
+Stage 2 (Enhanced Minimax with Higher Branching Factor)
+
+Improvements Over Stage 1:
+Branching Factor Increased: 12 (allows deeper search for better moves).
+Minimax with Alpha-Beta Pruning Algorithm.
+Time Constraint: 9.8 seconds per move.
+
+Functions Used (Similar as Stage 1 but optimized for more possibilities):
+fetch_known_valid_moves(): Fetches more possible moves.
+move_heuristic(): Prioritizes capturing stones and center control.
+minimax(): Improved decision-making with a wider move search.
+
+Summary:
+The Stage 2 agent improves upon it by increasing the branching factor to 12, allowing for better strategy execution.
