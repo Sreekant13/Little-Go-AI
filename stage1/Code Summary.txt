@@ -1,0 +1,21 @@
+Stage 1 (Minimax with Alpha-Beta Pruning):
+Main AI Strategy: Uses Minimax with Alpha-Beta Pruning to evaluate the best move.
+
+Key Features:
+Depth Limit: 5 levels deep for decision-making.
+Time Limit: 9.8 seconds per move to avoid timeout errors.
+Branching Factor: 5 (limits the number of explored moves per depth).
+
+Functions Used:
+read_input(): Reads input.txt to determine the game state.
+write_output(): Writes the selected move to output.txt.
+fetch_known_valid_moves(): Identifies legal moves.
+inquire_valid_move(): Checks move validity (KO & Liberty rules).
+has_liberty(): Ensures the move doesn’t result in self-capture.
+remove_dead_stones(): Removes opponent stones with no liberties.
+evaluate_board(): Scores board position (favors player’s stones and liberties).
+minimax(): Implements Minimax with Alpha-Beta Pruning for decision-making.
+produce_next_best_move(): Controls the process (read input, compute move, write output).
+
+Summary:
+The Stage 1 agent is built using Minimax with Alpha-Beta Pruning, optimized for fast decision-making with a branching factor of 5.
