@@ -2,7 +2,7 @@
 Projects based on course load(CSCI561)
 
 # Overview
-### The assignment focuses on developing AI agents for a small version of the Go game called Little-Go (5x5 board).
+### The project focuses on developing AI agents for a small version of the Go game called Little-Go (5x5 board).
 ### The agents will compete in online tournaments on Vocareum.com.
 ### The task involves implementing Search, Game Playing, and Reinforcement Learning techniques.
 ### The goal is to create an AI agent capable of playing against various predefined AI agents.
